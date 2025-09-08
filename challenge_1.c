@@ -1,17 +1,12 @@
 #include <stdio.h>
-void somme(int a,int b){
-   int sum = a + b;
-  printf("la somme de %d + %d est: %d\n",a,b, sum);
+int somme(int a, int b) {
+    int sum = a + b;
+    return sum; 
 }
-int main(){
-    somme(5,8);
 
-
-
-
-
-
-
+int main() {
+    int result = somme(5, 8); 
+    printf("La somme de 5 + 8 est: %d\n", result);
 
     return 0;
 }
